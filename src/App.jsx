@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import { ViewTable } from './components/ViewTable'
-import { Form } from "./compnents/Form"
+import { Form } from "./components/Form"
 
 function App() {
   const [transactions, setTransactions] = useState([])
